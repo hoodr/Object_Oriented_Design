@@ -1,0 +1,18 @@
+Drew Hoo
+HW 6
+OOD
+10/31/16
+
+1. A description of anything you did that went beyond what was required.
+
+  I added a new Fish called "Shark." The Shark movement is called TeleportMovement. It allows the shark to teleport around the environment. I also added a random spawn point for each fish within the tank area
+
+2. See attached
+
+2. If you wanted to change the program to accommodate another type of fish:
+  
+  What new Java classes would you need to create?
+    You would need a new fish class, and a new Fish Factory class for that fish.
+
+  What existing Java classes would you need to modify, and what would the modifications be?
+    You would need to modify FishMenuBar and FishFactory to accomate for the added fish. The menu bar needs a new fish option, and an event listener. FishFactory needs and added switch statement to select the correct factory for the new fish

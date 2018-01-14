@@ -1,0 +1,32 @@
+Drew Hoo
+11/28/16
+Hw 9A
+Object Oriented Design
+
+2. 
+    View-Centric:
+        FishTank
+        FishFrame
+        FishPanel
+    Model-Centric:
+        Octopus
+        AngelFish
+        MeanFish
+        OctopusFactory
+        AngelFishFactory
+        MeanieFactory
+    Model-View Mix:
+        HorizontalMovement
+        UpDownMovement
+        OscillatingMovement
+
+    Each movement is a mix of model and view because the class is used by the model to assign to each fish, but it really is used by the view in displaying the fish
+
+3.
+    a.)  Fish Factories and Fish
+    b.)  FishTank FishFrame FishPanel
+    c.)  The FTModelObserver should have registerObserver(), removeObserver(), updateObserver(), and notifyObserver() methods.
+    d.)  The FTViewObserver should have registerObserver(), removeObserver(), updateObserver(), and notifyObserver() methods.
+    e.)  The Controller would need to call methods to display fish and the variables of how to display the frame, like size etc.
+    f.)  The Controller would need to call the Fish Factory methods to create fish
+    g.)  The Fish Tank Model should handle the animation timer. The controller should be an action listener.
